@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="shortcut icon" href="imagens/br_icone.png">
+    <title>Br Fúria</title>
+</head>
+<body>
+    <header>
+        <img src="imagens/brlong.png" alt="logo" width="320">
+        <ul class="socialmedia">
+            <li><a href="//youtube.com/@brfuriaoficial" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="28px" height="28px" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1024 1024" class="iconify" data-icon="ant-design:youtube-fill" data-inline="false"><path d="M941.3 296.1a112.3 112.3 0 0 0-79.2-79.3C792.2 198 512 198 512 198s-280.2 0-350.1 18.7A112.12 112.12 0 0 0 82.7 296C64 366 64 512 64 512s0 146 18.7 215.9c10.3 38.6 40.7 69 79.2 79.3C231.8 826 512 826 512 826s280.2 0 350.1-18.8c38.6-10.3 68.9-40.7 79.2-79.3C960 658 960 512 960 512s0-146-18.7-215.9zM423 646V378l232 133l-232 135z"></path></svg>
+            </a></li>
+            <li><a href="//instagram.com/brfuriaoficial" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="28px" height="28px" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1024 1024" class="iconify" data-icon="ant-design:instagram-outline" data-inline="false"><path d="M512 306.9c-113.5 0-205.1 91.6-205.1 205.1S398.5 717.1 512 717.1S717.1 625.5 717.1 512S625.5 306.9 512 306.9zm0 338.4c-73.4 0-133.3-59.9-133.3-133.3S438.6 378.7 512 378.7S645.3 438.6 645.3 512S585.4 645.3 512 645.3zm213.5-394.6c-26.5 0-47.9 21.4-47.9 47.9s21.4 47.9 47.9 47.9s47.9-21.3 47.9-47.9a47.84 47.84 0 0 0-47.9-47.9zM911.8 512c0-55.2.5-109.9-2.6-165c-3.1-64-17.7-120.8-64.5-167.6c-46.9-46.9-103.6-61.4-167.6-64.5c-55.2-3.1-109.9-2.6-165-2.6c-55.2 0-109.9-.5-165 2.6c-64 3.1-120.8 17.7-167.6 64.5C132.6 226.3 118.1 283 115 347c-3.1 55.2-2.6 109.9-2.6 165s-.5 109.9 2.6 165c3.1 64 17.7 120.8 64.5 167.6c46.9 46.9 103.6 61.4 167.6 64.5c55.2 3.1 109.9 2.6 165 2.6c55.2 0 109.9.5 165-2.6c64-3.1 120.8-17.7 167.6-64.5c46.9-46.9 61.4-103.6 64.5-167.6c3.2-55.1 2.6-109.8 2.6-165zm-88 235.8c-7.3 18.2-16.1 31.8-30.2 45.8c-14.1 14.1-27.6 22.9-45.8 30.2C695.2 844.7 570.3 840 512 840c-58.3 0-183.3 4.7-235.9-16.1c-18.2-7.3-31.8-16.1-45.8-30.2c-14.1-14.1-22.9-27.6-30.2-45.8C179.3 695.2 184 570.3 184 512c0-58.3-4.7-183.3 16.1-235.9c7.3-18.2 16.1-31.8 30.2-45.8s27.6-22.9 45.8-30.2C328.7 179.3 453.7 184 512 184s183.3-4.7 235.9 16.1c18.2 7.3 31.8 16.1 45.8 30.2c14.1 14.1 22.9 27.6 30.2 45.8C844.7 328.7 840 453.7 840 512c0 58.3 4.7 183.2-16.2 235.8z"></path></svg>
+            </a></li>
+            <li><a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" width="28px" height="28px" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet" viewBox="0 0 1024 1024" class="iconify" data-icon="ant-design:facebook-fill" data-inline="false"><path d="M880 112H144c-17.7 0-32 14.3-32 32v736c0 17.7 14.3 32 32 32h736c17.7 0 32-14.3 32-32V144c0-17.7-14.3-32-32-32zm-92.4 233.5h-63.9c-50.1 0-59.8 23.8-59.8 58.8v77.1h119.6l-15.6 120.7h-104V912H539.2V602.2H434.9V481.4h104.3v-89c0-103.3 63.1-159.6 155.3-159.6c44.2 0 82.1 3.3 93.2 4.8v107.9z"></path></svg>
+            </a></li>
+        </ul>
+        <nav>
+            <ul id="menu-list">
+                <li id="burger"><svg xmlns="http://www.w3.org/2000/svg" height="28" viewBox="0 -960 960 960" width="28"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></li>
+                <li class="oculte" id="close"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></li>
+                <li class="oculte menu-row"><a href="#home">Home</a></li>
+                <li class="oculte menu-row">Membros</li>
+                <li class="oculte menu-row"><a href="#regras">Regras</a></li>
+                <li class="oculte menu-row"><a href="#sobre">Sobre</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h1>Destaques</h1>
+            
+                <img src="imagens/build.gif" alt="" width="100%">
+                  
+        </section>
+
+        <section id="regras">
+            <h1>Regras</h1>
+            <article>
+                <h2>Liga das guerras de clãs</h2>
+                <p>Se não atacar na liga, não poderá participar dos outros dias da liga atual e terá um prazo de 72h para explicar o motivo da falta do ataque. Caso não se explique dentro do prazo, será expulso!</p>
+                <p>Se não atacou na liga, mas se explicou pela falta do ataque dentro do prazo de 72h, terá punição e não participará dos dias restantes da liga atual nem da liga seguinte, podendo participar somente na liga posterior com observação!</p>
+                <p><i>Obs.: Ex (Não atacou em algum dia da liga de Janeiro, não participará mais dos outros dias da liga de Janeiro nem da liga de Fevereiro, somente na liga de Março e caso não ataque em algum dia da liga de Março, será expulso!)</i></p>
+            </article>
+            <article>
+                <h2>Guerras de clãs</h2>                
+                <p><strong>Primeiro ataque:</strong> Será no alvo espelho até 12h após o início da guerra. Caso não o faça, outro membro acima da sua vila que já fez o primeiro ataque no alvo espelho dele, poderá atacar o seu alvo espelho.</p>
+                <p><strong>Segundo ataque:</strong> Será usado para fechar vilas abaixo do seu alvo espelho, caso todas as vilas abaixo estejam fechadas, atacar a vila acima mais próxima do seu espelho.</p>                
+            </article>
+            <article>
+                <h2>Raide de fim de semana</h2>
+                <p>Se começar atacar um distrito, deve continuar atacando enquanto tiver ataques disponíveis ou até fechá-lo. Não pode atacar outro distrito enquanto não finalizar o que começou <i>(Se tiver mais de 1 conta no clã, deve usar ataques destas outras contas para fechar o distrito que você deixou aberto)</i>.</p>
+                <p>Se descumprir a regra da raide, será expulso do clã!</p>
+            </article>
+        </section>
+
+        <section id="sobre">
+            <h1>Sobre nós</h1>
+            <img src="imagens/build.gif" alt="" width="100%">
+        </section>
+         
+        
+    </main>
+    <footer>
+        <p>&copy; Br Fúria - by Edyberto Silva</p>
+    </footer>
+    
+    
+</body>
+    <!--script>
+        let burger = document.getElementById('burger');
+        let menulist = document.getElementById('menu-list');
+        let x = document.getElementById('close');
+        let mrow = document.getElementsByClassName('menu-row');
+
+        burger.addEventListener('click', function(){
+            burger.setAttribute('class','oculte');
+            x.setAttribute('style','display:inline');
+            menulist.classList.toggle('animeon');
+            /*menulist.setAttribute('style',
+            `position: fixed;
+            top: 200px;
+            left: 0;
+            width: 250px;
+            height: 100%;
+            background-color: brown;
+            padding: 30px 20px 10px 20px;
+            animation: .5s normal visible;
+            `);*/
+            
+            for(let v=0; v<mrow.length; v++){
+                mrow[v].setAttribute('style','display:block');
+                console.log(mrow[v].innerHTML)
+            }
+        });
+
+
+        x.addEventListener('click', function(){
+            x.setAttribute('class','oculte');
+            x.removeAttribute('style','display:inline');            
+            burger.removeAttribute('class','oculte');
+            menulist.classList.remove('animeon');
+            /*menulist.setAttribute('style',
+            `position: fixed;
+             top: 200px;
+             left: 0;
+             width: 0px;
+             height: 100%;
+             animation: .3s normal invisible;
+            `);*/
+
+            for(let i=0; i<mrow.length; i++){
+                mrow[i].setAttribute('style','display:none');
+                console.log(mrow[i].innerHTML)
+            }/*
+            setTimeout(() => {
+                menulist.removeAttribute('style','top: 0')
+            }, 100);*/
+        });
+
+
+        /*
+        x.addEventListener('click', function(){
+            x.setAttribute('class','oculte');
+            x.removeAttribute('style','display:inline');
+            burger.removeAttribute('class','oculte');
+            menulist.removeAttribute('style',
+            `position: fixed;
+            top: 0;
+            left: 0;
+            width: 250px;
+            height: 100%;
+            background-color: yellow;
+            padding: 30px 20px 10px 20px;
+            `);
+
+            for(let i=0; i<mrow.length; i++){
+                mrow[i].setAttribute('style','display:none');
+                console.log(mrow[i].innerHTML)
+            }
+        });*/        
+    </script-->
+</html>
